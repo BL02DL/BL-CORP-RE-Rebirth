@@ -119,3 +119,14 @@
   - type: InstantAction
     icon: { sprite: _NewParadise/Clothing/Eyes/NVG/nightvision.rsi, state: toggle-on }
     iconOn: { sprite: _NewParadise/Clothing/Eyes/NVG/nightvision.rsi, state: toggle-off }
+
+- type: entity
+  parent: [LoPClothingEyesNVG, ClothingEyesGlassesSunglasses]
+  id: LoPClothingEyesNVGSyndi
+  name: sun glasses
+  description: A pair of black sunglasses.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/NVG/sunglasses.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/NVG/sunglasses.rsi
