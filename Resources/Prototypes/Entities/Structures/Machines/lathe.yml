@@ -196,6 +196,7 @@
     - SurgeryStatic
     dynamicPacks:
     - LoPNVGPackScience # LoP Edit
+    - LoPNVGPackEngi # LoP Edit (temporarily!!!)
     - AdvancedTools
     - ScienceEquipment
     - ScienceExplosives
