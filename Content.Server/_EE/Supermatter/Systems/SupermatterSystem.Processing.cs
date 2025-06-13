@@ -7,7 +7,6 @@ using Content.Server.Light.Components;
 using Content.Server.Singularity.Components;
 using Content.Shared._EE.CCVar;
 using Content.Shared._EE.Supermatter.Components;
-using Content.Shared._Impstation.Thaven.Components;
 using Content.Shared.Atmos;
 using Content.Shared.Audio;
 using Content.Shared.Chat;
@@ -686,9 +685,6 @@ public sealed partial class SupermatterSystem
         _entityLookup.GetEntitiesOnMap<MobStateComponent>(mapId, mobLookup);
         mobLookup.RemoveWhere(x => HasComp<InsideEntityStorageComponent>(x));
 
-        // Scramble the thaven shared mood
-        _moods.NewSharedMoods();
-
         // Flickers all powered lights on the map
         var lightLookup = new HashSet<Entity<PoweredLightComponent>>();
         _entityLookup.GetEntitiesOnMap<PoweredLightComponent>(mapId, lightLookup);
@@ -718,10 +714,6 @@ public sealed partial class SupermatterSystem
 
                 continue;
             }
-
-            // Scramble thaven moods
-            if (TryComp<ThavenMoodsComponent>(mob, out var moods))
-                _moods.RefreshMoods((mob, moods));
 
             // Add effects to all mobs
             // TODO: change paracusia to actual hallucinations whenever those are real
