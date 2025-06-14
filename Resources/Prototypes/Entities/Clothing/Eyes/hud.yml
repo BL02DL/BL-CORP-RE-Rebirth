@@ -208,7 +208,7 @@
     sprite: Clothing/Eyes/Hud/synd.rsi
   - type: ShowSyndicateIcons
 # LOP edit start
-  - type: NightVision
+  - type: LoPNightVision
     tint1: 0.7
     tint2: 0.3
     tint3: 0.3
@@ -227,7 +227,7 @@
   - type: ShowSyndicateIcons
   - type: ShowHealthBars
 # LOP edit start
-  - type: NightVision
+  - type: LoPNightVision
     tint1: 0.3
     tint2: 0.3
     tint3: 0.7
