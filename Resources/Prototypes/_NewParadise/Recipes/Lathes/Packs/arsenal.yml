@@ -32,3 +32,8 @@
   - LoPClothingEyesMesonNVG
   - LoPClothingEyesSecNVG
   - LoPClothingEyesMedNVG
+
+- type: latheRecipePack
+  id: LoPTVGPack
+  recipes:
+  - ClothingEyesThermalVisionGoggles
