@@ -270,9 +270,9 @@
   - type: FlashImmunity
 # LoP edit start
   - type: LoPNightVision
-    Tint1: 0.3
-    Tint2: 0.7
-    Tint3: 0.3
+    tint1: 0.3
+    tint2: 0.7
+    tint3: 0.3
 # LoP edit end
 
 - type: entity
