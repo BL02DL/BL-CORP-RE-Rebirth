@@ -783,6 +783,12 @@
         Heat: 0.80
         Radiation: 0.80
         Caustic: 0.95
+  # WD EDIT START
+  - type: ThermalVision
+    isEquipment: true
+    color: "#98EEFB"
+    lightRadius: 15
+  # WD EDIT END
 
 #MISC. HARDSUITS
 #Clown Hardsuit
