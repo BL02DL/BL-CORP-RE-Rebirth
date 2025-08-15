@@ -1,0 +1,2 @@
+ent-EffectPosterPlacement = { "" }
+    .desc = { "" }
