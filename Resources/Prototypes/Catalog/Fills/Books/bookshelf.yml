@@ -64,6 +64,8 @@
         - id: BookImplants
     # Corvax-Lore-End
     - !type:GroupSelector
+      rolls: !type:RangeNumberSelector
+        range: 0, 1
       weight: 5
       children:
       - id: ForceWallSpellbook
