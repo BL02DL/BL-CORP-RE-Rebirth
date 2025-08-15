@@ -63,6 +63,11 @@
         - id: BookMBS2
         - id: BookImplants
     # Corvax-Lore-End
+    - !type:GroupSelector
+      weight: 5
+      children:
+      - id: ForceWallSpellbook
+      - id: KnockSpellbook
 
 - type: entityTable
   id: RandomHandwrittenBookTable
